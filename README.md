@@ -1,6 +1,11 @@
 Small exercices in Ruby -- RSpec 3 Edition
 ==========
 
+About this fork
+----------------
+
+This repository is a personal learning fork. I used it to practice Ruby and Test-Driven Development with RSpec. All code in the `lib/` directory was developed by me as part of this learning process. The test suite and exercise structure are based on the original project credited below.
+
 ### Set up instructions
 
 1. Fork this repo
