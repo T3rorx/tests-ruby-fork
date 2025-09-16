@@ -1,0 +1,1 @@
+def translate(s) s.split.map{|w| w[/\A[aeiou]/i] ? w+'ay' : w.sub(/\A([^aeiou]*qu|sch|[^aeiou]+)(.*)/i){|m| m[2]+m[1]+'ay' }}.join(' ') end
