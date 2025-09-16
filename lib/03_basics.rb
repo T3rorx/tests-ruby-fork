@@ -8,7 +8,7 @@ end
 def who_is_bigger_remi(a, b, c)
     array = [a, b, c]
 
-     if array.include?(nil)
+    if array.include?(nil)
         return "nil detected"
     else 
     max = array.max 
